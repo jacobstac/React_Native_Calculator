@@ -14,8 +14,27 @@ var Style = StyleSheet.create({
     },
 
     inputContainer: {
-        flex: 8,
+        flex: 4,
         backgroundColor: '#3e6f56'
+    },
+
+    inputButton: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 0.5,
+        borderColor: '#91AA9D'
+    },
+
+    inputButtonText: {
+        fontSize: 48,
+        fontWeight: 'bold',
+        color: 'white'
+    },
+
+    inputRow: {
+        flex: 1,
+        flexDirection: 'row'
     }
 
 
