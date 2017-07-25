@@ -10,7 +10,16 @@ var Style = StyleSheet.create({
 
     displayContainer: {
         flex: 2,
-        backgroundColor: '#19412d'
+        backgroundColor: '#19412d',
+        justifyContent: 'center'
+    },
+
+    displayText: {
+        color: 'white',
+        fontSize: 96,
+        fontWeight: 'bold',
+        textAlign: 'right',
+        padding: 20
     },
 
     inputContainer: {
